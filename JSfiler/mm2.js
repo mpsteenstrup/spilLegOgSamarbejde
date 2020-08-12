@@ -1,5 +1,5 @@
 function preload(){
-  img = loadImage('/../billeder/mpsFull.jpg');
+  img = loadImage('billeder/mpsFull.jpg');
 }
 
 
