@@ -71,3 +71,8 @@ Hvis der er gået mere end et sekund bliver `t1=t2` og der skabes et nyt tilfæl
 ### Opgave
 `keyPressed()`  indeholder også en betingelse.
 * Find betingelse og beskriv hvad den gør.
+
+### Opgave
+* Lav en kort liste over hvilken features I gerne vil implementere.
+*  Ranglist den med det som er lettest at implementere først.
+* Implementer de letteste.
