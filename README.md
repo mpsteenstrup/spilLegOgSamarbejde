@@ -6,6 +6,11 @@ Forløb med spil og samarbejde.
 * Spil spillet [mm2.js](https://mpsteenstrup.github.io/spilLegOgSamarbejde/index.html).
 * Tilslut Makey Makey og spil hvor I alle skal være med.
 
+## Projektopgaven
+Projektopgaven er beskrevet her, [SLSProjekt](filer/SLSProjekt.pdf).
+
+
+
 ## javaScript og teddavislive
 Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en online editor [teddavis.org](teddavis.org). Introduktionen beskrives her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
 
@@ -76,3 +81,9 @@ Hvis der er gået mere end et sekund bliver `t1=t2` og der skabes et nyt tilfæl
 * Lav en kort liste over hvilken features I gerne vil implementere.
 *  Ranglist den med det som er lettest at implementere først.
 * Implementer de letteste.
+
+## `print(score)` og js console
+Det kan være rigtigt rart at kunne se en konsol hvor fejlmeddeleler og andet bliver vist. Hvis I bruger Chrome browseren kan I finden en `javaScript console` under `View->Developer->javaScript console`.
+
+### Opgave
+* find konsollen og se jeres score.
