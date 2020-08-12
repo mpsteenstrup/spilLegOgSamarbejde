@@ -35,18 +35,39 @@ er indbyggede funktioner i p5.js, `function setup()` kører først. `function dr
 er en funktioner jeg har defineret. `function timeIngerval()` giver et tidsinterval på 1 sekund, 1000 milliskunder og `function randomNumber()` returnere et heltal mellem 0-3.
 
 ## if statement
+if statements er en logisk betingelse hvor noget bliver udført hvis betingelsen er sand, `True`. Det modsatte er at betingelsen ikke er sand, `False`.
 
-``
-function setup() {
-createCanvas(windowWidth, windowHeight);
-n = 0;
+### Opgave
+I `draw()` loopet er der en betingelse
+```
+if (n==0){
+    fill(255,0,0);
+    ellipse(500,500,200,200);
 }
+```
+* Kør programmet.
+* Lav `n` om så betingelsen er falsk.
+* Prøv at brug `True`, `False`.
 
-function draw() {
-	background(0);
-	if (n==0){
-			fill(255,0,0);
-			ellipse(500,500,200,200);
-	}
+Det var den simple, bemærk de to `==` som bruges ved logiske udsagn.
+
+### `timeInterval()`
+Funktionen `timeInterval()` indeholder også en betingelse. Den indeholder faktisk også en ny funktion, `millis()` som tæller millisekunder fra programmet startede. Vi bruger det til at lave intervaller med.
+funktionen `timeInterval()` indeholder koden
+```
+t2=millis();
+if (t2-t1>1000){
+  t1=t2;
+  n=randomNumber();
 }
-``
+```
+`t2=millis()` opdatere hele tiden variablen `t2` med den nyeste tid.
+`if (t2-t1>1000)` er sand hvis forskellen i tiderne `t2` og `t1` er større end 1000, altså der er gået et sekund.
+Hvis der er gået mere end et sekund bliver `t1=t2` og der skabes et nyt tilfældigt tal, `n`.
+
+### Opgave
+* Lav intervallet om til to sekuner.
+
+### Opgave
+`keyPressed()`  indeholder også en betingelse.
+* Find betingelse og beskriv hvad den gør.
