@@ -2,6 +2,9 @@
 
 Forløb med spil og samarbejde.
 
+## SLIDES
+* [spilLegOgSamarbejde1 slide](https://docs.google.com/presentation/d/1NOfr1dxWOD5ILCW3cHnLDb4eLC0OS75zl4aQ1EcTp_g/edit?usp=sharing)
+
 ### Opgave 1
 * Spil spillet [mm2.js](https://mpsteenstrup.github.io/spilLegOgSamarbejde/index.html).
 * Tilslut Makey Makey og spil hvor I alle skal være med.
@@ -82,8 +85,10 @@ Hvis der er gået mere end et sekund bliver `t1=t2` og der skabes et nyt tilfæl
 *  Ranglist den med det som er lettest at implementere først.
 * Implementer de letteste.
 
-## `print(score)` og js console
-Det kan være rigtigt rart at kunne se en konsol hvor fejlmeddeleler og andet bliver vist. Hvis I bruger Chrome browseren kan I finden en `javaScript console` under `View->Developer->javaScript console`.
+## print(score) og js console
+Det kan være rigtigt rart at kunne se en konsol hvor fejlmeddeleler og andet bliver vist. Hvis I bruger Chrome browseren kan I finden en
+
+Se under `View->Developer->javaScript console`.
 
 ### Opgave
 * find konsollen og se jeres score.
