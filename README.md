@@ -9,6 +9,10 @@ Forløb med spil og samarbejde.
 * Spil spillet [mm2.js](https://mpsteenstrup.github.io/spilLegOgSamarbejde/index.html).
 * Tilslut Makey Makey og spil hvor I alle skal være med.
 
+### Makey Makey spil
+* [Super Mario](https://supermarioemulator.com/supermario.php)
+* [The Bongos](https://apps.makeymakey.com/bongos/)
+
 ## Projektopgaven
 Projektopgaven er beskrevet her, [SLSProjekt](filer/SLSProjekt.pdf).
 
