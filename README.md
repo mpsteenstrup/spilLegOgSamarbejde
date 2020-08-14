@@ -32,7 +32,7 @@ Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyd
 * Gem det I har lavet ved at kopiere det ind i en teksteditor på jeres computer, (windows: notepad, mac: textedit).
 
 ### Atom editor og Github
-Hvis I hellere vil bruge Atom editoren til at samarbejde og køre js filer skal I følge denne vejledning, [ATOMEditorOgGithubTilmelding.mp](ATOMEditorOgGithubTilmelding.mp).
+Hvis I hellere vil bruge Atom editoren til at samarbejde og køre js filer skal I følge denne vejledning, [ATOMEditorOgGithubTilmelding.md](ATOMEditorOgGithubTilmelding.md).
 
 
 ## Introduktion til P5JS
