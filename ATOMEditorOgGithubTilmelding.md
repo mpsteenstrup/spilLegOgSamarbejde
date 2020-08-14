@@ -7,7 +7,7 @@ javaScript kører i en browser og browseren har brug for en html fil kaldet, `in
 
 Denne fil kan bruges som template, [index.html](index.html).
 
-Filen loader p5.js biblioteket. javaScript filen bliver loadet i linje 10, `<script src="JSfiler/mm2.js"></script>`. Hvis I ligger jeres js fil og index.html i samme mappe er syntaksen `<script src="jsfilnavn"></script>`.
+Filen loader p5.js biblioteket. javaScript filen bliver loadet i linje 10, `<script src="JSfiler/mm2.js"></script>`. Hvis I lægger jeres js fil og index.html i samme mappe er syntaksen `<script src="jsfilnavn"></script>`.
 
 På grund af sikkerhedsbegrænsninger kan I ikke bare åbne `index.html` filen ved at dobbeltklikke på den. Eller det kan I godt med den vil ikke køre js filen. Det I skal gøre at at lave en liveserver på Atom.
 
