@@ -16,6 +16,12 @@ Forløb med spil og samarbejde.
 ## Projektopgaven
 Projektopgaven er beskrevet her, [SLSProjekt](filer/SLSProjekt.pdf).
 
+## Atom teks
+Vi har brug for en editor som ikke laver om i koden, som word gør. Github har udviklet [Atom](https://atom.io/), som er rigtig god.
+
+## Opgave
+* Download Atom og installer det.
+* Gem det I har lavet på Teddavis med endelsen .js. Nu har I farvekode.
 
 
 ## javaScript og teddavislive
