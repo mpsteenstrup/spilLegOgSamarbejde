@@ -16,10 +16,7 @@ Forløb med spil og samarbejde.
 ## Projektopgaven
 Projektopgaven er beskrevet her, [SLSProjekt](filer/SLSProjekt.pdf).
 
-## Atom teks
-Vi har brug for en editor som ikke laver om i koden, som word gør. Github har udviklet [Atom](https://atom.io/), som er rigtig god.
-
-## Opgave
+### Opgave
 * Download Atom og installer det.
 * Gem det I har lavet på Teddavis med endelsen .js. Nu har I farvekode.
 
@@ -28,11 +25,15 @@ Vi har brug for en editor som ikke laver om i koden, som word gør. Github har u
 Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en online editor [teddavis.org/p5live](https://teddavis.org/p5live/). Introduktionen beskrives her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
 
 
-### Opgave 2
+### Opgave
 * Brug vejledningen [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4) til at komme ind på teddavis.org så I alle har adgang til samme editor, i grupper.
 * Find videoen `helloworld` og implementer det manden gør.
 * Tal i gruppen om hvad de forskellige linjer gør og prøv at lav om i dem.
 * Gem det I har lavet ved at kopiere det ind i en teksteditor på jeres computer, (windows: notepad, mac: textedit).
+
+### Atom editor og Github
+Hvis I hellere vil bruge Atom editoren til at samarbejde og køre js filer skal I følge denne vejledning, [ATOMEditorOgGithubTilmelding.mp](ATOMEditorOgGithubTilmelding.mp).
+
 
 ## Introduktion til P5JS
 Før I skal lave jeres eget skal I have styr på hvordan programmere i p5.js.
