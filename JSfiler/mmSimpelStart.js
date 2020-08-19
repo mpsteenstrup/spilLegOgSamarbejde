@@ -3,6 +3,7 @@ createCanvas(windowWidth, windowHeight);
 t1=0; t2=0; n = 0; score=0;
 }
 
+
 function draw() {
 	background(0);
 

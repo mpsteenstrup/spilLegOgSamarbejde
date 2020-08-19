@@ -119,3 +119,12 @@ Vi skal bruge øvelsen **Brainwalkig**. Det er en afart af den normale brainstor
 Vi starter med 5 minutters klassisk brainstorm, hvorefter vi tager hul på vandringen.
 
 * Find reglerne for brainwalking på websiden.
+
+## Rapid prototyping
+Noget af det vigtigste er at I prøver at hold det simpelt. Det er vigtigere og sjovere at have noget simpelt der virker end noget kompliceret som ikke virker. En af måderne er **rapid prototyping** hvilket Tom Chi fra Google innovation lab beskriver,
+
+[Tom Chi ted talk](https://www.youtube.com/watch?v=d5_h1VuwD6g&feature=youtu.be).
+
+### Øvelse
+* Beskriv hvordan den simpleste fysiske del af jeres projekt kan se ud.
+* Beskriv hvordan den simpleste programmeringsmæssige kan se ud.
