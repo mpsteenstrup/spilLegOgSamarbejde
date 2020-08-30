@@ -163,3 +163,6 @@ Noget af det vigtigste er at I prøver at hold det simpelt. Det er vigtigere og 
 
 ### Øvelse
 I skal foretage en brugertest som beskrevet her, [innovation.sites.ku.dk/metode/brugertest/](https://innovation.sites.ku.dk/metode/brugertest/).
+* Læs vejledningen.
+* Foretag en brugertest.
+* Diskuter og skriv ned hvad I har fået ud af den.

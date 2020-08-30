@@ -7,15 +7,12 @@ function setup() {
 }
 
 function draw(){
-  for (i in l) {
-    console.log(i);
-  }
+  console.log(l[i]);
+  i = (i+1)%4;
 }
 
 
 function temp(){
-  console.log(l[i]);
-  i = (i+1)%4;
 
   l[3]='MP';
 
