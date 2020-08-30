@@ -96,12 +96,41 @@ Hvis der er gået mere end et sekund bliver `t1=t2` og der skabes et nyt tilfæl
 * Implementer de letteste.
 
 ## print(score) og js console
-Det kan være rigtigt rart at kunne se en konsol hvor fejlmeddeleler og andet bliver vist. Hvis I bruger Chrome browseren kan I finden en
+Det kan være rigtigt rart at kunne se en konsol hvor fejlmeddeleler og andet bliver vist. Hvis I bruger  browseren kan I finden en
 
-Se under `View->Developer->javaScript console`.
+* Chrome: `View->Developer->javaScript console`.
+* Firefox: `Tools->web Developer-> web console`
 
 ### Øvelse
 * find konsollen og se jeres score.
+
+## Lister
+Lister eller arrays, kan være en praktisk måde at behandle data. De virker som en mere fleksibel version at de kendte vektorer fra matematik.
+
+### Øvelse
+programmer [listeSimpel.js](JSfiler/listeSimpel.js) har en simpel liste, `l = ['hej','med','dig',9];`
+* Kør programmet og åben js consolen.
+* Få programmet til at printe værdien af variablen `i`. Hvad er værdien af `i` når 'dig' bliver udskrevet.
+
+`i = (i+1)%4;` er en smart måde at tælle mellem 0 og 3. `%4` gør at vi regner modulus 4 d.v.s starter forfra hver gang vi når til 4 (0,1,2,3) osv.
+* Prøv at lav det om til modulus 3 eller 2.
+
+Hvis vi vil tilføje 'MP' til listen skal vi bruge `l.push('MP')`. Hvis vi i stedt vil erstatte tallet 9 i liste med 'MP' gøres det ved `l[3]='MP'`. Hvis man vil fjerne det sidste element i listen gøres det ved, `l.pop()`.
+
+* Prøv de forskellige metoder til at ændre på listen.
+* Brug 'int[random(4)]' til at udvælge et tilfældigt element i listen.
+
+### Billedeksempel
+I filen [listeBilleder.js](JSfiler/listeBilleder.js) bruges listen til at holde styr på en masse billeder.
+* Kør programmet og se hvad der sker.
+* Undersøg hvordan billederne kommer ind i listen.
+* Undersøg hvordan de bliver vist på skærmen.
+* Hvad sker der når man trykker på musseknappen?
+
+
+
+
+
 
 # Idegenerering og innovation
 Vi skal i gang med idegenerering hvor vi skal lave nogen øvelser. Øvelserne bruges mange steder og bl.a. på Københavns Universitet. De har samlet øvelserne i denne side,
@@ -128,3 +157,9 @@ Noget af det vigtigste er at I prøver at hold det simpelt. Det er vigtigere og 
 ### Øvelse
 * Beskriv hvordan den simpleste fysiske del af jeres projekt kan se ud.
 * Beskriv hvordan den simpleste programmeringsmæssige kan se ud.
+
+### PROTOTYPE, definition fra [Informatik-gym.dk](Informatik-gym.dk)
+"En prototype er en tidlig udgave af et produkt. I Informatik bygges papir prototyper som anvendes i brugertest med det formål at blive klogere på produktet. Fordelen ved prototyper er, at det er nemt og billigt at ændre dem (sammenlignet med ændringer af færdige produkter)."
+
+### Øvelse
+I skal foretage en brugertest som beskrevet her, [innovation.sites.ku.dk/metode/brugertest/](https://innovation.sites.ku.dk/metode/brugertest/).
