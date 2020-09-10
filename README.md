@@ -15,9 +15,7 @@ Forløb med spil og samarbejde.
 ## Projektopgaven
 Projektopgaven er beskrevet her, [SLSProjekt](filer/SLSProjekt.pdf).
 
-### Øvelse
-* Download Atom og installer det.
-* Gem det I har lavet på Teddavis med endelsen .js. Nu har I farvekode.
+
 
 
 ## javaScript og P5JS web editor
@@ -37,8 +35,8 @@ P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først k
 
 
 ### Øvelse
-* Brug vejledningen [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4) til at komme ind på teddavis.org så I alle har adgang til samme editor, i grupper.
-* Find videoen `helloworld` og implementer det manden gør.
+* Nederst på siden er der en liste med småprogrammer. Den simpleste er ``helloWorld.js``
+* Find videoen `helloworld` og koden og kopier den ind i P5Js editoren og kør programmet.
 * Tal i gruppen om hvad de forskellige linjer gør og prøv at lav om i dem.
 * Gem det I har lavet ved at kopiere det ind i en teksteditor på jeres computer, (windows: notepad, mac: textedit).
 
