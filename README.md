@@ -138,8 +138,20 @@ I filen [listeBilleder.js](JSfiler/listeBilleder.js) bruges listen til at holde 
 * Hvad sker der når man trykker på musseknappen?
 
 
+## Lyd - det er sjovest med lyd
+filen [JSfiler/boing.js](JSfiler/boing.js) loader en mp3 fil og afspiller den hver gang musenklanppen trykkes. boind.mp3 ligger i mappen filer.
 
+Vi skal bruge P5JS biblioteket ``p5.sound.min.js``som indlæses i ``index.html``filen med linjen;
+``<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/addons/p5.sound.min.js"></script>``
+Den skal placeres under der hvor vi loader ``
+p5.js ``, da den skal bruges.
 
+Recerence kan findes her, [p5.sound](https://p5js.org/reference/#/libraries/p5.sound).
+
+## Øvelse
+* Hent filen og koden og prøv at få den til at køre. Hvis det ikke virker så overvej hvordan stien til filen er lavet.
+* Find lyde eks. på [https://freesound.org](https://freesound.org) og brug dem.
+*
 
 
 # Idegenerering og innovation
