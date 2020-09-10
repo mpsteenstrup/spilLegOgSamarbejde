@@ -7,9 +7,21 @@ function setup() {
 }
 
 function draw(){
-  console.log(l[i]);
+  console.log( l[i]);
   i = (i+1)%4;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function temp(){
