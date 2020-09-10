@@ -1,18 +1,21 @@
-let musik;
+let boing;
 
 function preload() {
-	musik = loadSound('filer/boing.mp3');
+
 }
 
 function setup() {
+	boing = loadSound('filer/boing.mp3');
   createCanvas(400, 400);
-  musik.play();
+//  boing.play();
 }
 
 function mousePressed() {
-  musik.stop();
+boing.play();
 }
 
 function draw() {
+//	boing.play();
+//	boing.stop();
   background(220);
 }

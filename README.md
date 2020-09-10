@@ -20,8 +20,20 @@ Projektopgaven er beskrevet her, [SLSProjekt](filer/SLSProjekt.pdf).
 * Gem det I har lavet på Teddavis med endelsen .js. Nu har I farvekode.
 
 
-## javaScript og teddavislive
-Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en online editor [teddavis.org/p5live](https://teddavis.org/p5live/). Introduktionen beskrives her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
+## javaScript og P5JS web editor
+Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en online editor [editor.p5js.org](https://editor.p5js.org/). Introduktionen beskrives her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
+
+### Vejledninger
+Kristian Wichmann har lavet en række videovejledninger. Han bruger et andet online værktøj, men kodningen er den samme. [KWihkmann youtube](https://www.youtube.com/channel/UCRSqTiVe7Rho95hNtd3hJBQ/videos). Kodestumperne ligger her, [github.com/kwichmann](https://github.com/kwichmann/Kreativ-Kodning).
+
+### Referencer
+P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først kommmer et eksempel og nedenunder beskrivelsen.
+
+### Arbejdsmetode
+* Arbejd ud fra et eksempel som I kan ændre i.
+* Keep it simple, nok det vigtigste råd her.
+* Husk Variabelkontrol. Lav kun én ting om af gangen og kør programmet.
+* Gem jeres program. Lav en ny version hver gang noget virker 1_1, 1_2 osv.
 
 
 ### Øvelse
@@ -166,3 +178,19 @@ I skal foretage en brugertest som beskrevet her, [innovation.sites.ku.dk/metode/
 * Læs vejledningen.
 * Foretag en brugertest.
 * Diskuter og skriv ned hvad I har fået ud af den.
+
+
+### småprogrammer
+Små programmer som I kan bruge i jeres egne programmer.
+
+* [introduktion](programmer/introduktion.js), [video](https://youtu.be/2UyLpdzFQM0)
+* [helloWorld](programmer/helloWorld.js), [video](https://youtu.be/n-HZZf-5TOg)
+* [loadImage](programmer/loadImage.js), [video](https://youtu.be/W0agzwfQXPg)
+* [followMe](programmer/followMe.js), [video](https://youtu.be/ayX7336Fsf0)
+* [moveMe](programmer/moveMe.js), [video](https://youtu.be/_RCGfx-2K4w)
+* [pressedMouse](programmer/pressedMouse.js), [video](https://youtu.be/AV-Nsb_RWaw)
+* [random](programmer/random.js), [video](https://youtu.be/joHmvoPg-ho)
+* [matematik](programmer/matematik.js),  [video](https://youtu.be/VVzZLOgQYD0)
+* [lister](programmer/lister.js), [video](https://youtu.be/fODA4OegBoQ)
+* [loekker](programmer/loekker.js), [video](https://youtu.be/Adri3AgWBA8)
+* [skiftScene](programmer/skiftScene.js),[video](https://youtu.be/NLR-o1YDO0E)
