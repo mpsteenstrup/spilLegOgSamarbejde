@@ -5,13 +5,16 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth,windowHeight);
+	background(220);
 }
 
 function mousePressed() {
+	boing.setVolume(0.1);
 	boing.play();
 }
 
 function draw() {
-  background(220);
+	fill(200,100,0,100);
+	ellipse(mouseX,mouseY,200,200);
 }
