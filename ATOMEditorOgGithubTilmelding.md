@@ -38,3 +38,4 @@ Del filen med på "radiotårnet" og send link til de andre.
 I skal have en Github konto for at kunne bruge Teletype. Det mega fedt at have en Github konto og det er gratis. I kan oprette jer her, [github.com](https://github.com/), vælge et fornuftigt havn det hænder ved.
 
 ## Repository lokalt og på github
+Github er lavet til at dele programmer og
