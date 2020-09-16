@@ -39,4 +39,19 @@ I skal have en Github konto for at kunne bruge Teletype. Det mega fedt at have e
 
 ## Repository lokalt og på github
 Github er lavet til at dele programmer. Her er en video som forklare hvordan det bruges.
+Den simple version er at;
+* Log ind på Github i browseren.
+* Oprette et repository (+ i højre hjørne).
+* Uploade de filer du har brug for (```uploading an existing file```).
+
+Folderen skal indeholder;
+* en index fil, ```index.html```.
+* minimum en js fil som index filen henviser til.
+
+opsætning af webside
+* Ind under ```Settings```(tandhjulet).
+* Scroll ned til ```GithubPages``` under ```source```vælg ```master``` og ```save```.
+* Scroll ned igen og link find addressen. Hvis siden ikke viser sig så tilføj ``ìndex.html```i url addressen, eks. ```https://mpsteenstrup.github.io/githubTestmmSpil/index.html ``` .
+
+Her er en mumlevideo om hvordan man opsætter github rigtigt. Det er ikke lige så let.
 [https://youtu.be/8IQjE56NIoU](https://youtu.be/8IQjE56NIoU)
