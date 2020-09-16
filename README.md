@@ -18,7 +18,7 @@ Projektopgaven er beskrevet her, [SLSProjekt](filer/SLSProjekt.pdf).
 
 ## Logbog
 Oprettelse af logbog beskrives her,
-[logbogGoogleSites](logbogGoogleSites/readme.md)
+[logbogGoogleSites](logbogGoogleSites/README.md)
 
 ## javaScript og P5JS web editor
 Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en online editor [editor.p5js.org](https://editor.p5js.org/). Introduktionen beskrives her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
