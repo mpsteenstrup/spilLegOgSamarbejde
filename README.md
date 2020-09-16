@@ -1,7 +1,14 @@
 # spil, leg og samarbejde
 Forløb med spil og samarbejde.
 
-[click on this link](#Arbejdsmetode)
+## Indholdsfortegnelse
+* [javaScript og P5JS web editor
+](#javascript-og-p5js-web-editor)
+* [Introduktion til P5JS](#introduktion-til-p5js)
+* [Idegenerering og innovation](#idegenerering-og-innovation)
+* [ATOMEditor og GithubTilmelding](https://github.com/mpsteenstrup/spilLegOgSamarbejde/blob/master/ATOMEditorOgGithubTilmelding.md)
+* [logbogGoogleSites](logbogGoogleSites/README.md)
+
 
 ## SLIDES
 * [spilLegOgSamarbejde1 slide](https://docs.google.com/presentation/d/1NOfr1dxWOD5ILCW3cHnLDb4eLC0OS75zl4aQ1EcTp_g/edit?usp=sharing)
@@ -31,7 +38,7 @@ Kristian Wichmann har lavet en række videovejledninger. Han bruger et andet onl
 ### Referencer
 P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først kommmer et eksempel og nedenunder beskrivelsen.
 
-#Arbejdsmetode
+### Arbejdsmetode
 * Arbejd ud fra et eksempel som I kan ændre i.
 * Keep it simple, nok det vigtigste råd her.
 * Husk Variabelkontrol. Lav kun én ting om af gangen og kør programmet.
