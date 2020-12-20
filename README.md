@@ -3,6 +3,9 @@ Forløb med spil og samarbejde.
 
 
 {% include_relative readme2.md %}
+
+{% capture my_include %}{% include readme2.md %}{% endcapture %}
+{{ my_include | markdownify }}
 ## Indholdsfortegnelse
 * [javaScript og P5JS web editor
 ](#javascript-og-p5js-web-editor)
