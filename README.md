@@ -1,6 +1,8 @@
 # spil, leg og samarbejde
 Forløb med spil og samarbejde.
 
+
+{% include_relative readme2.md %}
 ## Indholdsfortegnelse
 * [javaScript og P5JS web editor
 ](#javascript-og-p5js-web-editor)
