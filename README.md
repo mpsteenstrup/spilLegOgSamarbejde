@@ -203,7 +203,6 @@ I skal foretage en brugertest som beskrevet her, [innovation.sites.ku.dk/metode/
 * Foretag en brugertest.
 * Diskuter og skriv ned hvad I har fået ud af den.
 
-
 ### småprogrammer
 Små programmer som I kan bruge i jeres egne programmer.
 
