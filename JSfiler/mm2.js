@@ -1,10 +1,15 @@
+let boing;
+
 function preload(){
   img = loadImage('billeder/mpsFull.jpg');
+  boing = loadSound('filer/boing.mp3');
+
 }
 
 function setup() {
 createCanvas(windowWidth, windowHeight);
 t1=0; t2=0; n = 0; score=0;
+boing.setVolume(1);
 }
 
 function draw() {
@@ -39,6 +44,7 @@ function draw() {
 }
 
 function keyPressed(){
+  boing.play();
 	if (keyCode == RIGHT_ARROW  && n==0)
 	{
 		score += 1;

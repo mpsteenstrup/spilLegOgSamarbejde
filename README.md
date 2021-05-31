@@ -13,9 +13,11 @@ Forløb med spil og samarbejde.
 
 ## SLIDES
 * [spilLegOgSamarbejde1 slide](https://docs.google.com/presentation/d/1NOfr1dxWOD5ILCW3cHnLDb4eLC0OS75zl4aQ1EcTp_g/edit?usp=sharing)
+*[spilLegOgSamarbejde2 slide](https://docs.google.com/presentation/d/128i1R1L-KWX1Hsw-6W990dY7erOQDklH3aIB9KR16oI/edit?usp=sharing)
+
 
 ### Øvelse 1
-* Spil spillet [mm2.js](https://mpsteenstrup.github.io/spilLegOgSamarbejde/index.html).
+* Spil spillet [mmSpillet.js](https://editor.p5js.org/mpsteenstrup/present/hEprPTioZ).
 * Tilslut Makey Makey og spil hvor I alle skal være med.
 
 ### Makey Makey spil
