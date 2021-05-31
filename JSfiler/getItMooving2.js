@@ -15,6 +15,7 @@ ymax = height;
 function draw() {
   background(220);
  loekke();
+
 }
 
 
@@ -37,6 +38,8 @@ function loekke(){
     ypos[i] = random(0,ymax);
     xspeed[i] = random(2,20);
     }
+    d = distance(x,xpos[i],y,ypos[i]);
+    dead();
   }
 }
 
@@ -55,6 +58,12 @@ function keyPressed(){
 	}
 }
 
-function distance(x0,y0,x1,y1){
+function distance(x0,x1,y0,y1){
   return ((x1-x0)**2+(y1-y0)**2)**0.5;
+}
+
+function dead(){
+  if (d<100){
+    console.log('dead');
+  }
 }

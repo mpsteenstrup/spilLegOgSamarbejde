@@ -1,0 +1,90 @@
+let img;
+let fugl1;
+let fugl2;
+t1=t2=0;
+imgX1 = 0;
+imgX2 = 0;
+imgSize = 1084;
+imgY = 0;
+x = 200;
+y = 200;
+speedY = 0;
+speedX = 0
+function preload(){
+    img = loadImage('baggrund.png');
+    img2 = loadImage('fugl1.png');
+    img3 = loadImage('fugl2.png');
+
+
+}
+
+
+function setup() {
+  createCanvas(windowWidth,windowHeight)
+  imgY = height-300;
+}
+
+function draw() {
+  background(255);
+
+  ground();
+  fugl();
+  timeIngerval();
+}
+
+function ground(){
+    image(img,imgX1,imgY,2*imgSize,400);
+ image(img,imgX2+2*imgSize-10,imgY,2*imgSize,400);
+  imgX1 -= 1;
+  imgX2 -= 1;
+  if (imgX1<-2*imgSize){
+    imgX1 = 0
+  }
+  if (imgX2<-2*imgSize){
+    imgX2 = 0
+  }
+}
+
+function keyPressed(){
+
+	if (keyCode == UP_ARROW  )
+	{
+        speedY -=1;
+	}
+  if (keyCode == DOWN_ARROW  )
+	{
+        speedY +=1;
+	}
+  	if (keyCode == RIGHT_ARROW  )
+	{
+        speedX +=1;
+	}
+  if (keyCode == LEFT_ARROW  )
+	{
+        speedX -=1;
+	}
+}
+
+function fugl(){
+  x += speedX;
+  y += speedY;
+
+  if (y<0 || y>height){
+    speedY=0;
+  }
+    if(t2-t1>1000){
+  image(img2,x,y);
+
+  }
+  else {
+  image(img3,x,y);
+  }
+
+}
+
+function timeIngerval() {
+	t2=millis();
+	if (t2-t1>2000){
+		t1=t2;
+	}
+}
