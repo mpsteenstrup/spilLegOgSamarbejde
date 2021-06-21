@@ -11,6 +11,7 @@ Inde på siden kan I sætte indhold ind, tekst, billeder osv, men desværre ikke
 I kan se jeres side ved tabler/labtop ikonet, figur menybar2.
 
 fig: menubar2
+
 ![menubar2](menubar2.png)
 
 ## Del siden
