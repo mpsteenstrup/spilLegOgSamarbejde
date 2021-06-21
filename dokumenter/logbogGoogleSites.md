@@ -21,8 +21,7 @@ For at andre kan se siden skal den udgives på engelsk Publish. I kan vælge at 
 ## Rettigheder
 Hvis I gør siden tilgængelig for alle, skal I overveje om I har rettigheder til det som ligger på. Det er især billeder og lyd som kan give problemer.
 Hvis man bruger googles søgemaskine kan man få de billeder frem som er under Creative Common licensen. Det vil sige at man godt må bruge dem hvis man vælger ``billeder -> tools -> User Rights -> CC``.
-Rettigheder billederne, horses.
-![rettighederBilleder](rettighederBilleder.png)
+
 
 Hvis I skal bruge lyd kan [https://freesound.org](https://freesound.org) bruges.
 
@@ -32,6 +31,7 @@ Meningen med logbogen er at "Den enkelte elev dokumenterer løbende sin faglige 
 Jeres logbog skal indeholde
 * Kort beskrivelse af det problem jeres program skal løse.
 * Kort beskrivelse af hvordan programmet overordnet løser problemet, eller er et skridt på vejen.
+* Overvejelser om hvilke teorier I har brugt, Interaktionsdesign, Innovation, Modellering.
 * Konkrete eksempler på valg I har truffet i processen, gerne med billeder eller selve produktet, programmet.
 * Udvalgte kodestumper med beskrivelse af hvad de gør.
 * Afsluttende kommentar efter brugertest af jeres produkt.
