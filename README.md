@@ -4,7 +4,7 @@ Forløb med spil og samarbejde.
 
 ## Indholdsfortegnelse
 * [Introduktionsslides](#slides)
-* [Projektopgaven](#projektopgaven)
+* [Projektopgaven](dokumenter/projektbeskrivelse.md)
 * [javaScript og P5JS web editor
 ](#javascript-og-p5js-web-editor)
 * [Introduktion til P5JS](#introduktion-til-p5js)
