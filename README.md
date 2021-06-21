@@ -37,10 +37,13 @@ Oprettelse af logbog beskrives her,
 [logbogGoogleSites](dokumenter/logbogGoogleSites.md)
 
 ## javaScript og P5JS web editor
-Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en online editor [editor.p5js.org](https://editor.p5js.org/). Introduktionen beskrives her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
+Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en online editor [editor.p5js.org](https://editor.p5js.org/). Introduktionen fra GCP4 kan I se her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
+
+### Fuld skærm
+Det er sjovest at arbejde i fuld skærm. I ```P5.js-editor``` kan I få fuld skærm hvis I ```gemmer programmet (navngiv det fornuftigt) -> File -> Share -> Present linket ```. I behøver ikke lukke fanen for at updatere, når I gemmer koden skal I bare genindlæse ```Present``` siden.
 
 ### Vejledninger
-Kristian Wichmann har lavet en række videovejledninger. Han bruger et andet online værktøj, men kodningen er den samme. [KWihkmann youtube](https://www.youtube.com/channel/UCRSqTiVe7Rho95hNtd3hJBQ/videos). Kodestumperne ligger her, [github.com/kwichmann](https://github.com/kwichmann/Kreativ-Kodning).
+Kristian Wichmann har lavet en række videovejledninger. [KWihkmann youtube](https://www.youtube.com/channel/UCRSqTiVe7Rho95hNtd3hJBQ/videos). Kodestumperne ligger her, [github.com/kwichmann](https://github.com/kwichmann/Kreativ-Kodning).
 
 ### Referencer
 P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først kommmer et eksempel og nedenunder beskrivelsen.
@@ -51,7 +54,6 @@ P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først k
 * Husk Variabelkontrol. Lav kun én ting om af gangen og kør programmet.
 * Gem jeres program. Lav en ny version hver gang noget virker 1_1, 1_2 osv.
 
-
 ### Øvelse
 * Nederst på siden er der en liste med småprogrammer. Den simpleste er ``helloWorld.js``
 * Find videoen `helloworld` og koden og kopier den ind i P5Js editoren og kør programmet.
@@ -59,7 +61,7 @@ P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først k
 * Gem det I har lavet ved at kopiere det ind i en teksteditor på jeres computer, (windows: notepad, mac: textedit).
 
 ### Atom editor og Github
-Hvis I hellere vil bruge Atom editoren til at samarbejde og køre js filer skal I følge denne vejledning, [ATOMEditorOgGithubTilmelding.md](ATOMEditorOgGithubTilmelding.md).
+Hvis I hellere vil bruge Atom editoren til at samarbejde og køre js filer skal I følge denne vejledning, [ATOMEditorOgGithubTilmelding.md](dokumenter/ATOMEditorOgGithubTilmelding.md).
 
 
 ## Introduktion til P5JS
@@ -123,14 +125,9 @@ Hvis der er gået mere end et sekund bliver `t1=t2` og der skabes et nyt tilfæl
 *  Ranglist den med det som er lettest at implementere først.
 * Implementer de letteste.
 
-## print(score) og js console
-Det kan være rigtigt rart at kunne se en konsol hvor fejlmeddeleler og andet bliver vist. Hvis I bruger  browseren kan I finden en
+## print(score) og andre meddelelser
+Det er rigtig praktisk at se hvad programmet gør. Det gøres ved at printe relevant information i udviklingsfasen. Det kan så slettes når programmet er mere udviklet.
 
-* Chrome: `View->Developer->javaScript console`.
-* Firefox: `Tools->web Developer-> web console`
-
-### Øvelse
-* find konsollen og se jeres score.
 
 ## Lister
 Lister eller arrays, kan være en praktisk måde at behandle data. De virker som en mere fleksibel version at de kendte vektorer fra matematik.
