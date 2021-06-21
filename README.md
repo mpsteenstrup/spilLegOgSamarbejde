@@ -17,7 +17,7 @@ Forløb med spil og samarbejde.
 ## Slides
 * [spilLegOgSamarbejde1 slide](https://docs.google.com/presentation/d/1NOfr1dxWOD5ILCW3cHnLDb4eLC0OS75zl4aQ1EcTp_g/edit?usp=sharing)
 
-*[spilLegOgSamarbejde2 slide](https://docs.google.com/presentation/d/128i1R1L-KWX1Hsw-6W990dY7erOQDklH3aIB9KR16oI/edit?usp=sharing)
+* [spilLegOgSamarbejde2 slide](https://docs.google.com/presentation/d/128i1R1L-KWX1Hsw-6W990dY7erOQDklH3aIB9KR16oI/edit?usp=sharing)
 
 
 ### Øvelse 1
@@ -80,8 +80,8 @@ er indbyggede funktioner i p5.js, `function setup()` kører først. `function dr
 
 er en funktioner jeg har defineret. `function timeIngerval()` giver et tidsinterval på 1 sekund, 1000 milliskunder og `function randomNumber()` returnere et heltal mellem 0-3.
 
-## if statement
-if statements er en logisk betingelse hvor noget bliver udført hvis betingelsen er sand, `True`. Det modsatte er at betingelsen ikke er sand, `False`.
+## Betingelser eller if-statements
+if statements er en logisk betingelse hvor noget bliver udført hvis betingelsen er sand, `True`. Det modsatte er at betingelsen ikke er sand, `False`. Der sker dermed en *forgrening* i programmet, hvor enten det ene eller det andet sker.
 
 ### Øvelse
 I `draw()` loopet er der en betingelse
