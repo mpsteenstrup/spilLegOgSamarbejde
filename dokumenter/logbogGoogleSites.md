@@ -8,11 +8,11 @@ I skal lave jeres logbog i Google Sites som en hjemmeside.
 Inde på siden kan I sætte indhold ind, tekst, billeder osv, men desværre ikke javaScript fil. Hvis I har lagt den på GitHub kan I sætte den ind med, ``Embed`` og så url adressen.
 
 ## Se siden
-I kan se jeres side ved tabler/labtop ikonet, figur menybar2.
+I kan se jeres side ved tabler/labtop ikonet, figur menybar.
 
-fig: menubar2
+fig: menubar
 
-![menubar2](menubar2.png)
+![menubar](menubar.png)
 
 ## Del siden
 For at andre kan se siden skal den udgives på engelsk Publish. I kan vælge at alle skal have adgang eller at det kun er Rysensteen eller kun mig.
