@@ -5,9 +5,6 @@ I skal lave jeres logbog i Google Sites som en hjemmeside.
 * Vælg jeres Informatikmappe og lav et site, ``New -> Google Sites ``.
 * Giv jeres første side en over skrift og lav en ny under ``Pages`` til jeres spil.
 
-fig: menubar1
-![menubar](menubar.png)
-
 Inde på siden kan I sætte indhold ind, tekst, billeder osv, men desværre ikke javaScript fil. Hvis I har lagt den på GitHub kan I sætte den ind med, ``Embed`` og så url adressen.
 
 ## Se siden
