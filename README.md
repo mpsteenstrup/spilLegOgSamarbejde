@@ -8,7 +8,7 @@ Forløb med spil og samarbejde.
 * [javaScript og P5JS web editor
 ](#javascript-og-p5js-web-editor)
 * [Introduktion til P5JS](#introduktion-til-p5js)
-* [Idegenerering og innovation](#idegenerering-og-innovation)
+* [Idegenerering og innovation](dokumenter/innovation.md)
 * [ATOMEditor og GithubTilmelding](https://github.com/mpsteenstrup/spilLegOgSamarbejde/blob/master/ATOMEditorOgGithubTilmelding.md)
 * [logbogGoogleSites](logbogGoogleSites/README.md)
 * [Småprogrammer](#småprogrammer)
