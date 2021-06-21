@@ -15,8 +15,14 @@ fig: menubar
 ![menubar](menubar.png)
 
 ## Del siden
-For at andre kan se siden skal den udgives på engelsk Publish. I kan vælge at alle skal have adgang eller at det kun er Rysensteen eller kun mig.
+For at andre kan se siden skal den udgives, *Publish*. I kan vælge at alle skal have adgang eller at det kun er Rysensteen eller kun mig.
 **NB! hver gang I laver noget om skal I trykke på Publish for at det vises.**
+
+For at siden kan deles med mig skal I
+* Vælg startsiden og vælg ```view published site``` under ```Publish ```.
+* Kopier linket fra den viste side in i spørgeskemaet.
+
+
 
 ## Rettigheder
 Hvis I gør siden tilgængelig for alle, skal I overveje om I har rettigheder til det som ligger på. Det er især billeder og lyd som kan give problemer.
