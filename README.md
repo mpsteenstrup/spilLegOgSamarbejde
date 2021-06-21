@@ -10,7 +10,7 @@ Forløb med spil og samarbejde.
 * [Introduktion til P5JS](#introduktion-til-p5js)
 * [Idegenerering og innovation](dokumenter/innovation.md)
 * [ATOMEditor og GithubTilmelding](dokumenter/ATOMEditorOgGithubTilmelding.md)
-* [logbogGoogleSites](logbogGoogleSites/README.md)
+* [logbogGoogleSites](dokumenter/logbogGoogleSites.md)
 * [Småprogrammer](#småprogrammer)
 
 
