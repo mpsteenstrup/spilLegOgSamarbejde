@@ -3,6 +3,8 @@ Forløb med spil og samarbejde.
 
 
 ## Indholdsfortegnelse
+* [Introduktionsslides](Slides)
+* [Projektopgaven](Projektopgaven)
 * [javaScript og P5JS web editor
 ](#javascript-og-p5js-web-editor)
 * [Introduktion til P5JS](#introduktion-til-p5js)
@@ -11,7 +13,7 @@ Forløb med spil og samarbejde.
 * [logbogGoogleSites](logbogGoogleSites/README.md)
 
 
-## SLIDES
+## Slides
 * [spilLegOgSamarbejde1 slide](https://docs.google.com/presentation/d/1NOfr1dxWOD5ILCW3cHnLDb4eLC0OS75zl4aQ1EcTp_g/edit?usp=sharing)
 
 *[spilLegOgSamarbejde2 slide](https://docs.google.com/presentation/d/128i1R1L-KWX1Hsw-6W990dY7erOQDklH3aIB9KR16oI/edit?usp=sharing)
