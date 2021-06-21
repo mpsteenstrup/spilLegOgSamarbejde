@@ -26,7 +26,7 @@ Forløb med spil og samarbejde.
 * [The Bongos](https://apps.makeymakey.com/bongos/)
 
 ## Projektopgaven
-Projektopgaven er beskrevet her, [SLSProjekt](filer/SLSProjekt.pdf).
+Projektopgaven er beskrevet her, [SLSProjekt](dokumenter/projektbeskrivelse.md).
 
 
 ## Logbog
