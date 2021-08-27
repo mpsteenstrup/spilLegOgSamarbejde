@@ -2,7 +2,7 @@
 
 ## AIDA modellen
 kilde: iftek.dk/aids-s
-![AIDA](billeder/AIDA.jpeg)
+![AIDA](/billeder/AIDA.jpeg)
 AIDA er en model, der handler om at analysere reklamer. Reklamer kan her forstås ret overordnet, så det kan sådan ser være enhver tekst, der har et budskab, som læseren eller forbrugeren skal reagere på. Modellen kan derfor også anvendes til at analysere test, spil, websites m.m. Man kan sige, det handler om at skabe visuelle udtryk, altså om brugergrænseflader kan sælge!
 
 Attention: Er der noget, der fanger brugerens opmærksomhed? (fx et rigtigt flot billede af en ung, der smiler med perfekte, hvide tænder)
