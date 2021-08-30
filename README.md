@@ -11,6 +11,7 @@ Forløb med spil og samarbejde.
 * [Idegenerering og innovation](dokumenter/innovation.md)
 * [ATOMEditor og GithubTilmelding](dokumenter/ATOMEditorOgGithubTilmelding.md)
 * [logbogGoogleSites](dokumenter/logbogGoogleSites.md)
+* [Grundbegreber i programmering](#Grundbegreber-i-programmering---Introduktion-til-P5JS)
 * [Småprogrammer](#småprogrammer)
 
 
@@ -64,7 +65,7 @@ P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først k
 Hvis I hellere vil bruge Atom editoren til at samarbejde og køre js filer skal I følge denne vejledning, [ATOMEditorOgGithubTilmelding.md](dokumenter/ATOMEditorOgGithubTilmelding.md).
 
 
-## Introduktion til P5JS
+## Grundbegreber i programmering - Introduktion til P5JS
 Før I skal lave jeres eget skal I have styr på hvordan programmere i p5.js.
 
 Vi gennemgår programmet, [mmSimpelStart](JSfiler/mmSimpelStart.js).
