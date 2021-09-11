@@ -70,7 +70,7 @@ Før I skal lave jeres eget skal I have styr på hvordan programmere i p5.js.
 
 Vi gennemgår programmet, [mmSimpelStart](JSfiler/mmSimpelStart.js).
 
-### funktioner
+## funktioner
 JS er opbygget af funktioner som kan kaldes
 
 * `function setup()`
@@ -78,10 +78,10 @@ JS er opbygget af funktioner som kan kaldes
 * `function keyPressed()`
 
 er indbyggede funktioner i p5.js, `function setup()` kører først. `function draw()` kører hele tiden i loop og alt i funktionen gentages til programmet sluttes. `function keyPressed()` kører når en tast bliver trykket ned.
-* `function timeIngerval()`
+* `function timeInterval()`
 * `function randomNumber()`
 
-er en funktioner jeg har defineret. `function timeIngerval()` giver et tidsinterval på 1 sekund, 1000 milliskunder og `function randomNumber()` returnere et heltal mellem 0-3.
+er en funktioner jeg har defineret. `function timeInterval()` giver et tidsinterval på 1 sekund, 1000 milliskunder og `function randomNumber()` returnere et heltal mellem 0-3.
 
 ## Betingelser eller if-statements
 if statements er en logisk betingelse hvor noget bliver udført hvis betingelsen er sand, `True`. Det modsatte er at betingelsen ikke er sand, `False`. Der sker dermed en *forgrening* i programmet, hvor enten det ene eller det andet sker.
@@ -144,7 +144,7 @@ programmer [listeSimpel.js](JSfiler/listeSimpel.js) har en simpel liste, `l = ['
 Hvis vi vil tilføje 'MP' til listen skal vi bruge `l.push('MP')`. Hvis vi i stedt vil erstatte tallet 9 i liste med 'MP' gøres det ved `l[3]='MP'`. Hvis man vil fjerne det sidste element i listen gøres det ved, `l.pop()`.
 
 * Prøv de forskellige metoder til at ændre på listen.
-* Brug 'int[random(4)]' til at udvælge et tilfældigt element i listen.
+* Brug 'int(random(4))' til at udvælge et tilfældigt element i listen.
 
 ### Billedeksempel
 I filen [listeBilleder.js](JSfiler/listeBilleder.js) bruges listen til at holde styr på en masse billeder.

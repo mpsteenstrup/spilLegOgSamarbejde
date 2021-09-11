@@ -12,7 +12,7 @@ function draw() {
 			ellipse(500,500,200,200);
 	}
 
-	timeIngerval();
+	timeInterval();
 }
 
 
@@ -25,7 +25,7 @@ function keyPressed(){
 	}
 }
 
-function timeIngerval() {
+function timeInterval() {
 	t2=millis();
 	if (t2-t1>1000){
 		t1=t2;
