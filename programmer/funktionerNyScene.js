@@ -8,7 +8,7 @@ function draw() {
   if (n==0){
     scene0();
   }
-  else{
+  if (n==1){
     scene1();
   }
 }
