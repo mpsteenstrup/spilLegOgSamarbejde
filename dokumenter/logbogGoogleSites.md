@@ -41,3 +41,6 @@ Jeres logbog skal indeholde
 * Konkrete eksempler på valg I har truffet i processen, gerne med billeder eller selve produktet, programmet.
 * Udvalgte kodestumper med beskrivelse af hvad de gør.
 * Afsluttende kommentar efter brugertest af jeres produkt.
+
+## Eksempel på en logbog
+[Eksempel på en logbog](https://sites.google.com/rysensteen.dk/eksempel-paa-logbog/start?authuser=1)
