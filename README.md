@@ -184,3 +184,4 @@ Små programmer som I kan bruge i jeres egne programmer.
 * [lister](programmer/lister.js), [video](https://youtu.be/fODA4OegBoQ)
 * [loekker](programmer/loekker.js), [video](https://youtu.be/Adri3AgWBA8)
 * [skiftScene](programmer/skiftScene.js),[video](https://youtu.be/NLR-o1YDO0E)
+* [fuglespil](https://editor.p5js.org/mpsteenstrup/sketches/xlkezV8Ng)
