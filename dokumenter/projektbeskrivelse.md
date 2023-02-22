@@ -8,9 +8,8 @@ Derfor har de besluttet sig for at udvikle et spil i ```p5.js```, der
 * Styres med Makey Makey og ikke direkte fra computeren.
 
 I logbogen skal I
-* Redegøre for hvordan I har brugt funktioner, betingelser, løkker og variabler.
-* En analyse af jeres produkt ud fra AIDA modellen.
-* Overvejelser om Rapid-prototyping og brugertest.
+* Lav et rutediagram over spillet.
+* Liste over ting I vil ændre på baggrund af brugertesten.
 
 
 (*) [http://fiibl.dk/born-og-unge-bevaeger-sig-for-lidt-trods-gode-rammer/](http://fiibl.dk/born-og-unge-bevaeger-sig-for-lidt-trods-gode-rammer/)
