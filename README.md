@@ -32,11 +32,12 @@ Projektopgaven er beskrevet her, [SLSProjekt](dokumenter/projektbeskrivelse.md).
 
 
 ## Logbog
-Oprettelse af logbog beskrives her,
-[logbogGoogleSites](dokumenter/logbogGoogleSites.md)
+Oprettelse af logbog beskrives her, [InformatikRysensteen](https://github.com/mpsteenstrup/InformatikRysensteen)
 
 ## javaScript og P5JS web editor
-Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en online editor [editor.p5js.org](https://editor.p5js.org/). Introduktionen fra GCP4 kan I se her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
+Vi skal kunne lave om i spillet og I skal kunne skabe jeres egne spil. Det betyder at I skal lære at programmere i javaScript, js. Vi bruger det samme bibliotek som ved GCP4, `P5.js`, og en 
+* online editor [editor.p5js.org](https://editor.p5js.org/). 
+Introduktionen fra GCP4 kan I se her, [https://github.com/mpsteenstrup/GCP4](https://github.com/mpsteenstrup/GCP4).
 
 ### Fuld skærm
 Det er sjovest at arbejde i fuld skærm. I ```P5.js-editor``` kan I få fuld skærm hvis I ```gemmer programmet (navngiv det fornuftigt) -> File -> Share -> Present linket ```. I behøver ikke lukke fanen for at updatere, når I gemmer koden skal I bare genindlæse ```Present``` siden.
@@ -59,8 +60,8 @@ P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først k
 * Tal i gruppen om hvad de forskellige linjer gør og prøv at lav om i dem.
 * Gem det I har lavet ved at kopiere det ind i en teksteditor på jeres computer, (windows: notepad, mac: textedit).
 
-### Atom editor og Github
-Hvis I hellere vil bruge Atom editoren til at samarbejde og køre js filer skal I følge denne vejledning, [ATOMEditorOgGithubTilmelding.md](dokumenter/ATOMEditorOgGithubTilmelding.md).
+### Visual Studio Code
+En god editor er Microsofts Visual Studio Code. Link her, [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
 
 
 ## Grundbegreber i programmering - Introduktion til P5JS
