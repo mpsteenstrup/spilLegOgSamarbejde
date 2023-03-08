@@ -8,6 +8,9 @@ Derfor har de besluttet sig for at udvikle et spil i ```p5.js```, der
 * Styres med Makey Makey og ikke direkte fra computeren.
 
 I logbogen skal I
+* Redegøre for ideerne og målsætningerne bag spillet.
+* Vise uddrag af spillet, gerne billeder, og beskriv dem.
+* Præsenter dele af koden og beskriv den grundigt.
 * Lav et rutediagram over spillet.
 * Liste over ting I vil ændre på baggrund af brugertesten.
 
