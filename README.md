@@ -5,12 +5,10 @@ Forløb med spil og samarbejde.
 ## Indholdsfortegnelse
 * [Introduktionsslides](#slides)
 * [Projektopgaven](dokumenter/projektbeskrivelse.md)
-* [javaScript og P5JS web editor
-](#javascript-og-p5js-web-editor)
+* [javaScript og P5JS web editor](#javascript-og-p5js-web-editor)
 * [Introduktion til P5JS](#introduktion-til-p5js)
 * [Idegenerering og innovation](dokumenter/innovation.md)
 * [ATOMEditor og GithubTilmelding](dokumenter/ATOMEditorOgGithubTilmelding.md)
-* [logbogGoogleSites](dokumenter/logbogGoogleSites.md)
 * [Grundbegreber i programmering](#Grundbegreber-i-programmering---Introduktion-til-P5JS)
 * [Småprogrammer](#småprogrammer)
 
