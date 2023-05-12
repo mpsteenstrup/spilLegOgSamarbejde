@@ -1,7 +1,6 @@
 # spil, leg og samarbejde
 Forløb med spil og samarbejde.
 
-
 ## Indholdsfortegnelse
 * [Introduktionsslides](#slides)
 * [Projektopgaven](dokumenter/projektbeskrivelse.md)
