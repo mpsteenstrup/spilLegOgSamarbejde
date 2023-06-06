@@ -5,6 +5,7 @@ Forløb med spil og samarbejde.
 * [Introduktionsslides](#slides)
 * [Projektopgaven](dokumenter/projektbeskrivelse.md)
 * [javaScript og P5JS web editorls](#javascript-og-p5js-web-editor)
+* [Lyde i p5.js](#lyd---det-er-sjovest-med-lyd)
 * [Introduktion til P5JS](#introduktion-til-p5js)
 * [Idegenerering og innovation](dokumenter/innovation.md)
 * [ATOMEditor og GithubTilmelding](dokumenter/ATOMEditorOgGithubTilmelding.md)
