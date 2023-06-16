@@ -3,7 +3,8 @@ Forløb med spil og samarbejde.
 
 ## Indholdsfortegnelse
 * [Introduktionsslides](#slides)
-* [Projektopgaven](dokumenter/projektbeskrivelse.md)
+* [Projektopgaven](#projektopgaven)
+* [Logbog](#logbog)
 * [javaScript og P5JS web editorls](#javascript-og-p5js-web-editor)
 * [Lyde i p5.js](#lyd---det-er-sjovest-med-lyd)
 * [Introduktion til P5JS](#introduktion-til-p5js)
@@ -28,7 +29,22 @@ Forløb med spil og samarbejde.
 * [The Bongos](https://apps.makeymakey.com/bongos/)
 
 ## Projektopgaven
-Projektopgaven er beskrevet her, [SLSProjekt](dokumenter/projektbeskrivelse.md).
+Med udgangspunkt i følgende case, skal du udvikle en del af en løsning.
+Dansk idrætsforbund er stærkt bekymret over en ny undersøgelse, der viser, at 3 ud af 4 børn og unge bevæger sig for lidt i hverdagen*. De mistænker at for meget stillesiddende skærmtid spiller en rolle og vil derfor gerne motivere unge mennesker til at bevæge sig mere og til at være mere sociale, når de spiller computerspil.
+Derfor har de besluttet sig for at udvikle et spil i ```p5.js```, der
+
+* Kan spilles i af to eller flere personer, der fysisk er i nærheden af hinanden.
+* Involverer et samarbejdende eller konkurrerende element, gerne inspireret af sport.
+* Styres med Makey Makey og ikke direkte fra computeren.
+
+I logbogen skal I
+* Redegøre for ideerne og målsætningerne bag spillet.
+* Vise uddrag af spillet, gerne billeder, og beskriv dem.
+* Præsenter **dele** af koden og beskriv den grundigt, hvor I kommer ind på lækker, forgreninger, variable og funktioner.
+* Lav et rutediagram over spillet.
+* Dokumenterer den iterative arbejdsproces og rapid prototyping, beskrevet her [Innovation](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/innovation.md#iterativ-arbejdsprocess).
+
+(*) [http://fiibl.dk/born-og-unge-bevaeger-sig-for-lidt-trods-gode-rammer/](http://fiibl.dk/born-og-unge-bevaeger-sig-for-lidt-trods-gode-rammer/)
 
 
 ## Logbog
@@ -61,17 +77,25 @@ P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først k
 * Gem det I har lavet ved at kopiere det ind i en teksteditor på jeres computer, (windows: notepad, mac: textedit).
 
 ### Visual Studio Code
-En god editor er Microsofts Visual Studio Code. Link her, [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+En god editor er Microsofts Visual Studio Code, [Link her](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/TekstEditorOgGithubTilmelding.md)
 
 
-## Grundbegreber i programmering - Introduktion til P5JS
-Før I skal lave jeres eget skal I have styr på hvordan programmere i p5.js.
+# Grundbegreber i programmering - Introduktion til P5JS
+Før I skal lave jeres eget skal I have styr på hvordan programmere i p5.js. 
 
-Vi gennemgår programmet, [mmSimpelStart](JSfiler/mmSimpelStart.js).
+Der er få men vigtige grundelementer når man programmerer
+* **variable**, beholder for information, tal eller tekst.
+* **løkker**, får en del af programmet til at gentage sig, skrive med `while`eller `for`.
+* **forgreninger**, får programmet at udfører en handling hvis input er sandt `True`, kaldes også `ìf`statements.
+* **funktioner**, er med til at strukturere koden. Funktioner kan køres flere gange og man undgår at skrive det samme mange gange. 
 
-## funktioner
+Vi vil introducere de forskellige grundelementer ved at gennemgå programmet, [mmSimpelStart](JSfiler/mmSimpelStart.js).
+
+## Variable
+I linje 1 defineres fire variable `t1=0; t2=0; n=0; score=0;`. Det er standarden at definere variablene i starten af programmet. Variable kan også indeholde tekst eks. `tekst = "dette er en tekst"` hvor det angives med gåseøne. 
+
+## Funktioner
 JS er opbygget af funktioner som kan kaldes
-
 * `function setup()`
 * `function draw()`
 * `function keyPressed()`
@@ -86,7 +110,7 @@ er en funktioner jeg har defineret. `function timeInterval()` giver et tidsinter
 if statements er en logisk betingelse hvor noget bliver udført hvis betingelsen er sand, `True`. Det modsatte er at betingelsen ikke er sand, `False`. Der sker dermed en *forgrening* i programmet, hvor enten det ene eller det andet sker.
 
 ### Øvelse
-I `draw()` loopet er der en betingelse
+I `draw()` løkken er der en betingelse
 ```
 if (n==0){
     fill(255,0,0);

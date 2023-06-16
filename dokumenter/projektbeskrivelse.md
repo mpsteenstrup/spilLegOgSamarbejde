@@ -10,9 +10,8 @@ Derfor har de besluttet sig for at udvikle et spil i ```p5.js```, der
 I logbogen skal I
 * Redegøre for ideerne og målsætningerne bag spillet.
 * Vise uddrag af spillet, gerne billeder, og beskriv dem.
-* Præsenter dele af koden og beskriv den grundigt.
+* Præsenter **dele** af koden og beskriv den grundigt, hvor I kommer ind på lækker, forgreninger, variable og funktioner.
 * Lav et rutediagram over spillet.
-* Liste over ting I vil ændre på baggrund af brugertesten.
-
+* Dokumenterer den iterative arbejdsproces og rapid prototyping, beskrevet her [Innovation](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/innovation.md#iterativ-arbejdsprocess).
 
 (*) [http://fiibl.dk/born-og-unge-bevaeger-sig-for-lidt-trods-gode-rammer/](http://fiibl.dk/born-og-unge-bevaeger-sig-for-lidt-trods-gode-rammer/)

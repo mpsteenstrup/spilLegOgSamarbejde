@@ -1,6 +1,7 @@
+t1=0; t2=0; n=0; score=0;
+
 function setup() {
 createCanvas(windowWidth, windowHeight);
-t1=0; t2=0; n = 0; score=0;
 }
 
 
