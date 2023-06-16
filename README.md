@@ -9,7 +9,7 @@ Forløb med spil og samarbejde.
 * [Lyde i p5.js](#lyd---det-er-sjovest-med-lyd)
 * [Introduktion til P5JS](#introduktion-til-p5js)
 * [Idegenerering og innovation](dokumenter/innovation.md)
-* [ATOMEditor og GithubTilmelding](dokumenter/ATOMEditorOgGithubTilmelding.md)
+* [VS-Code editor og github](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/TekstEditorOgGithubTilmelding.md)
 * [Grundbegreber i programmering](#Grundbegreber-i-programmering---Introduktion-til-P5JS)
 * [Småprogrammer](#småprogrammer)
 
@@ -94,6 +94,24 @@ Vi vil introducere de forskellige grundelementer ved at gennemgå programmet, [m
 ## Variable
 I linje 1 defineres fire variable `t1=0; t2=0; n=0; score=0;`. Det er standarden at definere variablene i starten af programmet. Variable kan også indeholde tekst eks. `tekst = "dette er en tekst"` hvor det angives med gåseøne. 
 
+## Løkker eller loops
+Nedenstående kode printer tallene, skriver dem på skærmen, ```0,1,2,3```.
+```
+i = 0
+while (i<4){
+    print(i)
+    i += 1;
+}
+```
+løkken kører så længe ```while```betinelsen er sand, d.v.s. så længe i er mindre end 4. I linjen ``` i +=1 ```bliver der lagt én til variablen i.
+
+### Øvelse
+* Lav om i koden så der bliver talt ned, ```3,2,1,0```
+
+I P5.js er ```function draw()``` også en løkke. Den er indbygget i programmet og kører hele tiden. Hvis man selv skal lave en løkke som bliver ved med at kører kan man skrive ```while (True)```
+
+
+
 ## Funktioner
 JS er opbygget af funktioner som kan kaldes
 * `function setup()`
@@ -106,7 +124,7 @@ er indbyggede funktioner i p5.js, `function setup()` kører først. `function dr
 
 er en funktioner jeg har defineret. `function timeInterval()` giver et tidsinterval på 1 sekund, 1000 milliskunder og `function randomNumber()` returnere et heltal mellem 0-3.
 
-## Betingelser eller if-statements
+## Forgreninger eller if-statements
 if statements er en logisk betingelse hvor noget bliver udført hvis betingelsen er sand, `True`. Det modsatte er at betingelsen ikke er sand, `False`. Der sker dermed en *forgrening* i programmet, hvor enten det ene eller det andet sker.
 
 ### Øvelse
