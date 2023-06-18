@@ -1,17 +1,12 @@
 t1=0; t2=0; n=0; score=0;
 
 function setup() {
-createCanvas(windowWidth, windowHeight);
-i = 0
-while (i<4){
-    print(i)
-    i += 1;
-}
+  createCanvas(windowWidth, windowHeight);
 }
 
 
 function draw() {
-	background(0);
+  background(0);
 	if (n==0){
 			fill(255,0,0);
 			ellipse(500,500,200,200);

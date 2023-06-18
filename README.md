@@ -113,12 +113,51 @@ I P5.js er ```function draw()``` også en løkke. Den er indbygget i programmet 
 
 
 ## Funktioner
-JS er opbygget af funktioner som kan kaldes
+Funktioner virker næsten som I kender dem fra matematik hvor en input-værdi bliver til en output-værdi. Funktionen gør lidt løst formuleret noget ved inputtet og returnerer det som output. I programmering er vores forståelse af funktioner lidt mere flektible. 
+
+Definition:
+*En funktion er den del kode som udfører en opgave.*
+
+Det smarte er at funktionen kan kaldes flere gange og at man derfor undgør at skrive det samme flere gange. Det giver også overskuelighed når én funktion udfører én opgave.
+
+Funktioner kan
+* Udføre en opgave uden input og output.
+* Udføre en opgave med input.
+* Udføre en opgave og give et output.
+
+Her er et eksempel på en funktion som tager to tal og lægger dem sammen og retunerer resultatet.
+```
+function addNumbers(n,m){
+  return n+m
+}
+sum = addNumbers(10,32);
+console.log(sum)
+```
+Funktionen defineres med ```function``` og indholdet er mellem ```{}```. Denne funktion har to input ```n``` og ```m``` og returnerer én værdi.
+
+### Øvelse
+* kopier koden ind i p5.js editoren og kør den.
+* Lav en funktion der dividerer og tjek hvad der sker ved division med nul.
+
+Input og output behøver ikke være tal. I denne funktion skrives en hilsen. 
+```
+function skrivHilsen(navn){
+  console.log("hej med dig " + navn);
+}
+
+skrivHilsen("Mads Peter")
+```
+### Øvelse
+* Hvad er input.
+* Er der et output.
+* Forklar hvorfor det kan være smart med funktioner til gentagne opgaver.
+
+p5JS har indbyggede funktionersom kan kaldes
 * `function setup()`
 * `function draw()`
 * `function keyPressed()`
 
-er indbyggede funktioner i p5.js, `function setup()` kører først. `function draw()` kører hele tiden i loop og alt i funktionen gentages til programmet sluttes. `function keyPressed()` kører når en tast bliver trykket ned.
+`function setup()` kører som det første. `function draw()` kører hele tiden i loop og alt i funktionen gentages til programmet sluttes. `function keyPressed()` kører når en tast bliver trykket ned.
 * `function timeInterval()`
 * `function randomNumber()`
 
@@ -127,29 +166,58 @@ er en funktioner jeg har defineret. `function timeInterval()` giver et tidsinter
 ## Forgreninger eller if-statements
 if statements er en logisk betingelse hvor noget bliver udført hvis betingelsen er sand, `True`. Det modsatte er at betingelsen ikke er sand, `False`. Der sker dermed en *forgrening* i programmet, hvor enten det ene eller det andet sker.
 
-### Øvelse
-I `draw()` løkken er der en betingelse
 ```
-if (n==0){
-    fill(255,0,0);
-    ellipse(500,500,200,200);
+n = 0;
+if (n==8){
+  console.log('That is my lucky number 8');
+}
+if (n!=8){
+  console.log(n + ' is not my lucky number');
 }
 ```
-* Kør programmet.
-* Lav `n` om så betingelsen er falsk.
-* Prøv at brug `True`, `False`.
 
-Det var den simple, bemærk de to `==` som bruges ved logiske udsagn.
+### Øvelse
+* Kør programmet og forklar forskellen på ```n==8```og ```n!=8```.
+* Lav en løkke  med tallene 1 til 10 og skriv med ```console.log()``` og en if-statement alle de lige tal.
 
-### `timeInterval()`
+
+## Lister
+Lister eller arrays, kan være en praktisk måde at behandle data. De virker som en mere fleksibel version at de kendte vektorer fra matematik.
+
+### Øvelse
+programmer [listeSimpel.js](JSfiler/listeSimpel.js) har en simpel liste, `l = ['hej','med','dig',9];`
+* Kør programmet og forklar hvad der sker.
+* Flyt ```addInformatik();``` oven over løkken, hvad er forskellen?
+Vi sletter sidste element i listen med ```l.pop()``` og tilføjer i stedet 'informatik med'  `l.push('infomatik')`. Vi kan også ændre enkeltelementer eks. erstatte 'hej' med 'MP' ved at skrive ```l[0]='MP'```
+
+## gennemgang af programmet mmSimpleStart.js
+Vi vil arbejde med programmet [mmSimpleStart.js](https://editor.p5js.org/mpsteenstrup/sketches/SKNtdTNPU). Spillet indeholder funktioner som er indbygget i p5JS biblopteket.
+
+### Øvelse
+* Kør programmet og beskriv den overordnede funktionalitet.
+* Find de variable der er i programmet og vurder om de ændrer sig i løbet af programmet.
+* Find de funktioner der er i programmet. 
+* Find de forgreninger der er i programmet.
+
+javaScript og p5JS her indbyggede funktioner,
+* ```setup()``` kører først.
+* ```draw()``` er en løkke som kører i gennem hele programmet.
+* ```random(n)``` giver et tilfældigt tal 0 til n.
+* ```int()``` laver et kommatal om til et heltal (integer på engelsk).
+* ```millis()``` tæller antal millisekunder siden programmet startede.
+* ```keyPressed()``` trigger når en tast bliver trykket.
+
+Det er også en funktion som jeg har lavet,
+* ```timeInterval()```
+
 Funktionen `timeInterval()` indeholder også en betingelse. Den indeholder faktisk også en ny funktion, `millis()` som tæller millisekunder fra programmet startede. Vi bruger det til at lave intervaller med.
 funktionen `timeInterval()` indeholder koden
 ```
-t2=millis();
-if (t2-t1>1000){
-  t1=t2;
-  n=randomNumber();
-}
+	t2=millis();
+	if (t2-t1>1000){
+		t1=t2;
+		n=int(random(4));
+	}
 ```
 `t2=millis()` opdatere hele tiden variablen `t2` med den nyeste tid.
 `if (t2-t1>1000)` er sand hvis forskellen i tiderne `t2` og `t1` er større end 1000, altså der er gået et sekund.
@@ -164,28 +232,9 @@ Hvis der er gået mere end et sekund bliver `t1=t2` og der skabes et nyt tilfæl
 
 ### Øvelse
 * Lav en kort liste over hvilken features I gerne vil implementere.
-*  Ranglist den med det som er lettest at implementere først.
+* Ranglist den med det som er lettest at implementere først.
 * Implementer de letteste.
 
-## print(score) og andre meddelelser
-Det er rigtig praktisk at se hvad programmet gør. Det gøres ved at printe relevant information i udviklingsfasen. Det kan så slettes når programmet er mere udviklet.
-
-
-## Lister
-Lister eller arrays, kan være en praktisk måde at behandle data. De virker som en mere fleksibel version at de kendte vektorer fra matematik.
-
-### Øvelse
-programmer [listeSimpel.js](JSfiler/listeSimpel.js) har en simpel liste, `l = ['hej','med','dig',9];`
-* Kør programmet og åben js consolen.
-* Få programmet til at printe værdien af variablen `i`. Hvad er værdien af `i` når 'dig' bliver udskrevet.
-
-`i = (i+1)%4;` er en smart måde at tælle mellem 0 og 3. `%4` gør at vi regner modulus 4 d.v.s starter forfra hver gang vi når til 4 (0,1,2,3) osv.
-* Prøv at lav det om til modulus 3 eller 2.
-
-Hvis vi vil tilføje 'MP' til listen skal vi bruge `l.push('MP')`. Hvis vi i stedt vil erstatte tallet 9 i liste med 'MP' gøres det ved `l[3]='MP'`. Hvis man vil fjerne det sidste element i listen gøres det ved, `l.pop()`.
-
-* Prøv de forskellige metoder til at ændre på listen.
-* Brug 'int(random(4))' til at udvælge et tilfældigt element i listen.
 
 ### Billedeksempel
 I filen [listeBilleder.js](JSfiler/listeBilleder.js) bruges listen til at holde styr på en masse billeder.
