@@ -1,11 +1,18 @@
 # spil, leg og samarbejde
-Forløb med spil og samarbejde.
+Forløb med spil og samarbejde. 
+
+[Link til hjemmesideopsætning](https://mpsteenstrup.github.io/spilLegOgSamarbejde/#slides)
+
+[Link til githubopsætning](https://github.com/mpsteenstrup/spilLegOgSamarbejde)
 
 ## Indholdsfortegnelse
 * [Introduktionsslides](#slides)
 * [Projektopgaven](#projektopgaven)
 * [Logbog](#logbog)
 * [javaScript og P5JS web editorls](#javascript-og-p5js-web-editor)
+* [Grundbegreber i programmering](#grundbegreber-i-programmering---introduktion-til-p5js)
+* [Gennemgang af programmet mmSimpleStart.js](#gennemgang-af-programmet-mmsimplestartjs)
+* [Lån, brug og forstå](#lån-brug-og-forstå)
 * [Lyde i p5.js](#lyd---det-er-sjovest-med-lyd)
 * [Introduktion til P5JS](#introduktion-til-p5js)
 * [Idegenerering og innovation](dokumenter/innovation.md)
@@ -58,11 +65,6 @@ Introduktionen fra GCP4 kan I se her, [https://github.com/mpsteenstrup/GCP4](htt
 ### Fuld skærm
 Det er sjovest at arbejde i fuld skærm. I ```P5.js-editor``` kan I få fuld skærm hvis I ```gemmer programmet (navngiv det fornuftigt) -> File -> Share -> Present linket ```. I behøver ikke lukke fanen for at updatere, når I gemmer koden skal I bare genindlæse ```Present``` siden.
 
-### Vejledninger
-Kristian Wichmann har lavet en række videovejledninger. [KWihkmann youtube](https://www.youtube.com/channel/UCRSqTiVe7Rho95hNtd3hJBQ/videos). Kodestumperne ligger her, [github.com/kwichmann](https://github.com/kwichmann/Kreativ-Kodning).
-
-### Referencer
-P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først kommmer et eksempel og nedenunder beskrivelsen.
 
 ### Arbejdsmetode
 * Arbejd ud fra et eksempel som I kan ændre i.
@@ -235,6 +237,17 @@ Hvis der er gået mere end et sekund bliver `t1=t2` og der skabes et nyt tilfæl
 * Ranglist den med det som er lettest at implementere først.
 * Implementer de letteste.
 
+### Lån, brug og forstå
+Ved udvikling af programmer er det heldigtvis ok at tage udgangspunkt i og låne fra hvad andre har gjort. Nedenfor er en samling småprogrammer som I kan tage udgangspunkt i, når I laver jeres eget program. Det er meget lettere at modificere et eksisterende program end at starte med en blank side. 
+
+Det vigtigtste krav er **I skal forstå og kunne forklare alt den kode I tager med, også selv om det er noget I ikke selv har skrevet**. Det gælder hvis I tager udgangspunkt i eksempler, eller hvis I samarbejder om at lave programmet.  
+
+### Vejledninger
+Kristian Wichmann har lavet en række videovejledninger. [KWihkmann youtube](https://www.youtube.com/channel/UCRSqTiVe7Rho95hNtd3hJBQ/videos). Kodestumperne ligger her, [github.com/kwichmann](https://github.com/kwichmann/Kreativ-Kodning).
+
+### Referencer
+P5 har et godt bibliotek med [referencer](https://p5js.org/reference/), først kommmer et eksempel og nedenunder beskrivelsen.
+
 
 ### Billedeksempel
 I filen [listeBilleder.js](JSfiler/listeBilleder.js) bruges listen til at holde styr på en masse billeder.
@@ -244,7 +257,7 @@ I filen [listeBilleder.js](JSfiler/listeBilleder.js) bruges listen til at holde 
 * Hvad sker der når man trykker på musseknappen?
 
 
-## Lyd - det er sjovest med lyd
+### Lyd - det er sjovest med lyd
 filen [JSfiler/boing.js](JSfiler/boing.js) loader en mp3 fil og afspiller den hver gang musenklanppen trykkes. boind.mp3 ligger i mappen filer.
 
 Vi skal bruge P5JS biblioteket ``p5.sound.min.js``som indlæses i ``index.html``filen med linjen;
