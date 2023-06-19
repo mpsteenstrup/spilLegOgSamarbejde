@@ -13,12 +13,8 @@ Forløb med spil og samarbejde.
 * [Grundbegreber i programmering](#grundbegreber-i-programmering---introduktion-til-p5js)
 * [Gennemgang af programmet mmSimpleStart.js](#gennemgang-af-programmet-mmsimplestartjs)
 * [Lån, brug og forstå](#lån-brug-og-forstå)
-* [Lyde i p5.js](#lyd---det-er-sjovest-med-lyd)
-* [Introduktion til P5JS](#introduktion-til-p5js)
-* [Idegenerering og innovation](dokumenter/innovation.md)
 * [VS-Code editor og github](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/TekstEditorOgGithubTilmelding.md)
-* [Grundbegreber i programmering](#Grundbegreber-i-programmering---Introduktion-til-P5JS)
-* [Småprogrammer](#småprogrammer)
+
 
 
 ## Slides
@@ -48,7 +44,7 @@ I logbogen skal I
 * Redegøre for ideerne og målsætningerne bag spillet.
 * Vise uddrag af spillet, gerne billeder, og beskriv dem.
 * Præsenter **dele** af koden og beskriv den grundigt, hvor I kommer ind på lækker, forgreninger, variable og funktioner.
-* Lav et rutediagram over spillet.
+* Lav et rutediagram over spillet, beskrecet her [rutediagram](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/flowchart.md).
 * Dokumenterer den iterative arbejdsproces og rapid prototyping, beskrevet her [Innovation](https://github.com/mpsteenstrup/InformatikRysensteen/blob/main/dokumenter/innovation.md#iterativ-arbejdsprocess).
 
 (*) [http://fiibl.dk/born-og-unge-bevaeger-sig-for-lidt-trods-gode-rammer/](http://fiibl.dk/born-og-unge-bevaeger-sig-for-lidt-trods-gode-rammer/)
