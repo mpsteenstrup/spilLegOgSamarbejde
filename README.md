@@ -94,11 +94,11 @@ Vi vil introducere de forskellige grundelementer ved at gennemgå programmet, [m
 I linje 1 defineres fire variable `t1=0; t2=0; n=0; score=0;`. Det er standarden at definere variablene i starten af programmet. Variable kan også indeholde tekst eks. `tekst = "dette er en tekst"` hvor det angives med gåseøne. 
 
 ## Løkker eller loops
-Nedenstående kode printer tallene, skriver dem på skærmen, ```0,1,2,3```.
+Nedenstående kode skriver tallene i konsollen med ```console.log()```, skriver dem på skærmen, ```0,1,2,3```.
 ```
 i = 0
 while (i<4){
-    print(i)
+    console.log(i)
     i += 1;
 }
 ```
