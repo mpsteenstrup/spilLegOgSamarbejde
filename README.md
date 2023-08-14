@@ -24,9 +24,9 @@ Forløb med spil og samarbejde.
 
 
 ### Øvelse 1
-* Spil spillet [mmSpillet.js](https://editor.p5js.org/mpsteenstrup/present/hEprPTioZ).
-* Spil spillet [mmSpil.js](https://mpsteenstrup.github.io/spilLegOgSamarbejde/filer/mmSpil/index.html)
+* Spil spillet [mmSpil.js](https://editor.p5js.org/mpsteenstrup/present/hEprPTioZ).
 * Tilslut Makey Makey og spil hvor I alle skal være med.
+
 
 ### Makey Makey spil
 * [Super Mario](https://supermarioemulator.com/supermario.php)
