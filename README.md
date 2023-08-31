@@ -84,6 +84,7 @@ Før I skal lave jeres eget skal I have styr på hvordan programmere i p5.js.
 
 Der er få men vigtige grundelementer når man programmerer
 * **variable**, beholder for information, tal eller tekst.
+* **sekvens**, ting sker i rækkefølge.
 * **løkker**, får en del af programmet til at gentage sig, skrive med `while`eller `for`.
 * **forgreninger**, får programmet at udfører en handling hvis input er sandt `True`, kaldes også `ìf`statements.
 * **funktioner**, er med til at strukturere koden. Funktioner kan køres flere gange og man undgår at skrive det samme mange gange. 
@@ -92,6 +93,23 @@ Vi vil introducere de forskellige grundelementer ved at gennemgå programmet, [m
 
 ## Variable
 I linje 1 defineres fire variable `t1=0; t2=0; n=0; score=0;`. Det er standarden at definere variablene i starten af programmet. Variable kan også indeholde tekst eks. `tekst = "dette er en tekst"` hvor det angives med gåseøne. 
+
+## Sekvens
+En sekvens er en den af programmet hvor koden bliver eksekveret linje for linje. Helt generelt kan programmer læses fra toppen og ned og rækkefølgen er også fra toppen til bund.
+her skrives i værdien to gange i konsollen
+```
+i = 0
+console.log(i)
+i += 1
+console.log(i)
+```
+outputtet er 
+```
+0
+1
+```
+### Øvelse
+* lav om i koden så den skriver tallene i omvendt rækkefølge.
 
 ## Løkker eller loops
 Nedenstående kode skriver tallene i konsollen med ```console.log()```, skriver dem på skærmen, ```0,1,2,3```.
